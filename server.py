@@ -16,7 +16,7 @@ def main():
 
 def gen():
     cam = VideoCapture(0)
-    encode_param = [int(IMWRITE_JPEG_QUALITY), 90]
+    encode_param = [int(IMWRITE_JPEG_QUALITY), 10]
     while True:
         cam_opened, img = cam.read()
 
