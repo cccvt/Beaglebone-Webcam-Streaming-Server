@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+
+
 from datetime import datetime
 from flask import Flask
 from flask import render_template
